@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Page Object test example]">
+  <test name="sample test(failed)">
+    <classes>
+      <class name="com.st.test.SearchPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.st.test.SearchPageTest -->
+      <class name="com.st.test.RegisterPageTest">
+        <methods>
+          <include name="verifyCompleteMyProfile"/>
+          <include name="verifyRegistrationPage"/>
+          <include name="verifyYourCurrentEmploymentDetails"/>
+          <include name="verifyCompleteMyProfilePage"/>
+          <include name="verifyCreateYourJobAlert"/>
+          <include name="tearDown"/>
+          <include name="popUpClose"/>
+          <include name="verifyCreateLoginDetails"/>
+          <include name="verifyEducationDetails"/>
+          <include name="verifyYourContactInformation"/>
+        </methods>
+      </class> <!-- com.st.test.RegisterPageTest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->

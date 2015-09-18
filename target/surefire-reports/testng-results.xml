@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="26" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object test example" duration-ms="455539" started-at="2015-08-23T16:29:54Z" finished-at="2015-08-23T16:37:29Z">
+    <groups>
+    </groups>
+    <test name="sample test" duration-ms="455539" started-at="2015-08-23T16:29:54Z" finished-at="2015-08-23T16:37:29Z">
+      <class name="com.st.test.SearchPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="setup" is-config="true" duration-ms="33821" started-at="2015-08-23T21:59:54Z" finished-at="2015-08-23T22:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="popUpClose()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="popUpClose" duration-ms="797" started-at="2015-08-23T22:00:28Z" finished-at="2015-08-23T22:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUpClose -->
+        <test-method status="PASS" signature="verifySearchSection()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifySearchSection" duration-ms="657" started-at="2015-08-23T22:00:29Z" finished-at="2015-08-23T22:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchSection -->
+        <test-method status="PASS" signature="verifySearchByLocationField()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifySearchByLocationField" duration-ms="18493" started-at="2015-08-23T22:00:29Z" finished-at="2015-08-23T22:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByLocationField -->
+        <test-method status="PASS" signature="verifySearchByExperienceField()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifySearchByExperienceField" duration-ms="25048" started-at="2015-08-23T22:00:48Z" finished-at="2015-08-23T22:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByExperienceField -->
+        <test-method status="PASS" signature="verifySearchBySkill()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifySearchBySkill" duration-ms="14988" started-at="2015-08-23T22:01:13Z" finished-at="2015-08-23T22:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBySkill -->
+        <test-method status="PASS" signature="verifySearchResultsPage()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifySearchResultsPage" duration-ms="3817" started-at="2015-08-23T22:01:28Z" finished-at="2015-08-23T22:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultsPage -->
+        <test-method status="PASS" signature="verifyRefineResultsSection()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifyRefineResultsSection" duration-ms="599" started-at="2015-08-23T22:01:32Z" finished-at="2015-08-23T22:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineResultsSection -->
+        <test-method status="PASS" signature="verifySearchListingViewResults()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifySearchListingViewResults" duration-ms="8978" started-at="2015-08-23T22:01:32Z" finished-at="2015-08-23T22:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchListingViewResults -->
+        <test-method status="PASS" signature="verifySearchDetailedViewResults()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifySearchDetailedViewResults" duration-ms="10655" started-at="2015-08-23T22:01:41Z" finished-at="2015-08-23T22:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchDetailedViewResults -->
+        <test-method status="PASS" signature="verifySearchResultsSection()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifySearchResultsSection" duration-ms="993" started-at="2015-08-23T22:01:52Z" finished-at="2015-08-23T22:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultsSection -->
+        <test-method status="PASS" signature="verifyRefineByFreshness()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifyRefineByFreshness" duration-ms="11814" started-at="2015-08-23T22:01:53Z" finished-at="2015-08-23T22:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByFreshness -->
+        <test-method status="PASS" signature="verifySearchByLocationSection()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifySearchByLocationSection" duration-ms="13617" started-at="2015-08-23T22:02:05Z" finished-at="2015-08-23T22:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByLocationSection -->
+        <test-method status="PASS" signature="verifyRefineByLocationPopUp()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifyRefineByLocationPopUp" duration-ms="29910" started-at="2015-08-23T22:02:18Z" finished-at="2015-08-23T22:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByLocationPopUp -->
+        <test-method status="PASS" signature="verifyRefineByIndustryType()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifyRefineByIndustryType" duration-ms="31282" started-at="2015-08-23T22:02:48Z" finished-at="2015-08-23T22:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByIndustryType -->
+        <test-method status="PASS" signature="verifyRefineByIndustryPopUp()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifyRefineByIndustryPopUp" duration-ms="34969" started-at="2015-08-23T22:03:19Z" finished-at="2015-08-23T22:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByIndustryPopUp -->
+        <test-method status="PASS" signature="verifyRefineByEducation()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifyRefineByEducation" duration-ms="24393" started-at="2015-08-23T22:03:54Z" finished-at="2015-08-23T22:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByEducation -->
+        <test-method status="PASS" signature="verifyRefineByEducationPopUp()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="verifyRefineByEducationPopUp" duration-ms="38868" started-at="2015-08-23T22:04:19Z" finished-at="2015-08-23T22:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByEducationPopUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.st.test.SearchPageTest@136f0f5]" name="tearDown" is-config="true" duration-ms="2841" started-at="2015-08-23T22:04:58Z" finished-at="2015-08-23T22:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.st.test.SearchPageTest -->
+      <class name="com.st.test.RegisterPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.st.test.RegisterPageTest@af6cff]" name="setup" is-config="true" duration-ms="17991" started-at="2015-08-23T22:05:00Z" finished-at="2015-08-23T22:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="popUpClose()[pri:0, instance:com.st.test.RegisterPageTest@af6cff]" name="popUpClose" duration-ms="750" started-at="2015-08-23T22:05:18Z" finished-at="2015-08-23T22:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUpClose -->
+        <test-method status="PASS" signature="verifyRegistrationPage()[pri:0, instance:com.st.test.RegisterPageTest@af6cff]" name="verifyRegistrationPage" duration-ms="14203" started-at="2015-08-23T22:05:19Z" finished-at="2015-08-23T22:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationPage -->
+        <test-method status="PASS" signature="verifyCreateLoginDetails()[pri:0, instance:com.st.test.RegisterPageTest@af6cff]" name="verifyCreateLoginDetails" duration-ms="28339" started-at="2015-08-23T22:05:33Z" finished-at="2015-08-23T22:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateLoginDetails -->
+        <test-method status="PASS" signature="verifyYourContactInformation()[pri:0, instance:com.st.test.RegisterPageTest@af6cff]" name="verifyYourContactInformation" duration-ms="9275" started-at="2015-08-23T22:06:02Z" finished-at="2015-08-23T22:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYourContactInformation -->
+        <test-method status="PASS" signature="verifyYourCurrentEmploymentDetails()[pri:0, instance:com.st.test.RegisterPageTest@af6cff]" name="verifyYourCurrentEmploymentDetails" duration-ms="27196" started-at="2015-08-23T22:06:11Z" finished-at="2015-08-23T22:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYourCurrentEmploymentDetails -->
+        <test-method status="PASS" signature="verifyCompleteMyProfilePage()[pri:0, instance:com.st.test.RegisterPageTest@af6cff]" name="verifyCompleteMyProfilePage" duration-ms="7164" started-at="2015-08-23T22:06:38Z" finished-at="2015-08-23T22:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteMyProfilePage -->
+        <test-method status="PASS" signature="verifyEducationDetails()[pri:0, instance:com.st.test.RegisterPageTest@af6cff]" name="verifyEducationDetails" duration-ms="16186" started-at="2015-08-23T22:06:45Z" finished-at="2015-08-23T22:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEducationDetails -->
+        <test-method status="PASS" signature="verifyCompleteMyProfile()[pri:0, instance:com.st.test.RegisterPageTest@af6cff]" name="verifyCompleteMyProfile" duration-ms="7902" started-at="2015-08-23T22:07:02Z" finished-at="2015-08-23T22:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteMyProfile -->
+        <test-method status="PASS" signature="verifyCreateYourJobAlert()[pri:0, instance:com.st.test.RegisterPageTest@af6cff]" name="verifyCreateYourJobAlert" duration-ms="18128" started-at="2015-08-23T22:07:09Z" finished-at="2015-08-23T22:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateYourJobAlert -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.st.test.RegisterPageTest@af6cff]" name="tearDown" is-config="true" duration-ms="1816" started-at="2015-08-23T22:07:28Z" finished-at="2015-08-23T22:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.st.test.RegisterPageTest -->
+    </test> <!-- sample test -->
+  </suite> <!-- Page Object test example -->
+</testng-results>

@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Page_Object_test_example">
+              <span class="suite-name border-passed">Page Object test example</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Page_Object_test_example">
+                    <span>D:\Automation\Workspace_Selenium_Final\SDFQA\src\test\resource\TestSuite\TestSenthil.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Page_Object_test_example">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Page_Object_test_example">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Page_Object_test_example">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Page_Object_test_example">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Page_Object_test_example">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Page_Object_test_example">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Page_Object_test_example" class="hide-methods passed suite-Page_Object_test_example"> (hide)</a> <!-- hide-methods passed suite-Page_Object_test_example -->
+                      <a href="#" panel-name="suite-Page_Object_test_example" class="show-methods passed suite-Page_Object_test_example"> (show)</a> <!-- show-methods passed suite-Page_Object_test_example -->
+                    </span>
+                    <div class="method-list-content passed suite-Page_Object_test_example">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.RegisterPageTest" hash-for-method="popUpClose">popUpClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="popUpClose">popUpClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.RegisterPageTest" hash-for-method="verifyCompleteMyProfile">verifyCompleteMyProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.RegisterPageTest" hash-for-method="verifyCompleteMyProfilePage">verifyCompleteMyProfilePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.RegisterPageTest" hash-for-method="verifyCreateLoginDetails">verifyCreateLoginDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.RegisterPageTest" hash-for-method="verifyCreateYourJobAlert">verifyCreateYourJobAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.RegisterPageTest" hash-for-method="verifyEducationDetails">verifyEducationDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifyRefineByEducation">verifyRefineByEducation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifyRefineByEducationPopUp">verifyRefineByEducationPopUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifyRefineByFreshness">verifyRefineByFreshness</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifyRefineByIndustryPopUp">verifyRefineByIndustryPopUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifyRefineByIndustryType">verifyRefineByIndustryType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifyRefineByLocationPopUp">verifyRefineByLocationPopUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifyRefineResultsSection">verifyRefineResultsSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.RegisterPageTest" hash-for-method="verifyRegistrationPage">verifyRegistrationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifySearchByExperienceField">verifySearchByExperienceField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifySearchByLocationField">verifySearchByLocationField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifySearchByLocationSection">verifySearchByLocationSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifySearchBySkill">verifySearchBySkill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifySearchDetailedViewResults">verifySearchDetailedViewResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifySearchListingViewResults">verifySearchListingViewResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifySearchResultsPage">verifySearchResultsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifySearchResultsSection">verifySearchResultsSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.SearchPageTest" hash-for-method="verifySearchSection">verifySearchSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.RegisterPageTest" hash-for-method="verifyYourContactInformation">verifyYourContactInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.st.test.RegisterPageTest" hash-for-method="verifyYourCurrentEmploymentDetails">verifyYourCurrentEmploymentDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Page_Object_test_example -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Page_Object_test_example" class="panel Page_Object_test_example">
+          <div class="suite-Page_Object_test_example-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.st.test.SearchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="popUpClose">
+                  </a> <!-- popUpClose -->
+                  <span class="method-name">popUpClose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRefineByEducation">
+                  </a> <!-- verifyRefineByEducation -->
+                  <span class="method-name">verifyRefineByEducation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRefineByEducationPopUp">
+                  </a> <!-- verifyRefineByEducationPopUp -->
+                  <span class="method-name">verifyRefineByEducationPopUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRefineByFreshness">
+                  </a> <!-- verifyRefineByFreshness -->
+                  <span class="method-name">verifyRefineByFreshness</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRefineByIndustryPopUp">
+                  </a> <!-- verifyRefineByIndustryPopUp -->
+                  <span class="method-name">verifyRefineByIndustryPopUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRefineByIndustryType">
+                  </a> <!-- verifyRefineByIndustryType -->
+                  <span class="method-name">verifyRefineByIndustryType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRefineByLocationPopUp">
+                  </a> <!-- verifyRefineByLocationPopUp -->
+                  <span class="method-name">verifyRefineByLocationPopUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRefineResultsSection">
+                  </a> <!-- verifyRefineResultsSection -->
+                  <span class="method-name">verifyRefineResultsSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByExperienceField">
+                  </a> <!-- verifySearchByExperienceField -->
+                  <span class="method-name">verifySearchByExperienceField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByLocationField">
+                  </a> <!-- verifySearchByLocationField -->
+                  <span class="method-name">verifySearchByLocationField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByLocationSection">
+                  </a> <!-- verifySearchByLocationSection -->
+                  <span class="method-name">verifySearchByLocationSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchBySkill">
+                  </a> <!-- verifySearchBySkill -->
+                  <span class="method-name">verifySearchBySkill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchDetailedViewResults">
+                  </a> <!-- verifySearchDetailedViewResults -->
+                  <span class="method-name">verifySearchDetailedViewResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchListingViewResults">
+                  </a> <!-- verifySearchListingViewResults -->
+                  <span class="method-name">verifySearchListingViewResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchResultsPage">
+                  </a> <!-- verifySearchResultsPage -->
+                  <span class="method-name">verifySearchResultsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchResultsSection">
+                  </a> <!-- verifySearchResultsSection -->
+                  <span class="method-name">verifySearchResultsSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchSection">
+                  </a> <!-- verifySearchSection -->
+                  <span class="method-name">verifySearchSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Page_Object_test_example-class-passed -->
+          <div class="suite-Page_Object_test_example-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.st.test.RegisterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="popUpClose">
+                  </a> <!-- popUpClose -->
+                  <span class="method-name">popUpClose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompleteMyProfile">
+                  </a> <!-- verifyCompleteMyProfile -->
+                  <span class="method-name">verifyCompleteMyProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompleteMyProfilePage">
+                  </a> <!-- verifyCompleteMyProfilePage -->
+                  <span class="method-name">verifyCompleteMyProfilePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateLoginDetails">
+                  </a> <!-- verifyCreateLoginDetails -->
+                  <span class="method-name">verifyCreateLoginDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateYourJobAlert">
+                  </a> <!-- verifyCreateYourJobAlert -->
+                  <span class="method-name">verifyCreateYourJobAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEducationDetails">
+                  </a> <!-- verifyEducationDetails -->
+                  <span class="method-name">verifyEducationDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPage">
+                  </a> <!-- verifyRegistrationPage -->
+                  <span class="method-name">verifyRegistrationPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyYourContactInformation">
+                  </a> <!-- verifyYourContactInformation -->
+                  <span class="method-name">verifyYourContactInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyYourCurrentEmploymentDetails">
+                  </a> <!-- verifyYourCurrentEmploymentDetails -->
+                  <span class="method-name">verifyYourCurrentEmploymentDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Page_Object_test_example-class-passed -->
+        </div> <!-- panel Page_Object_test_example -->
+        <div panel-name="test-xml-Page_Object_test_example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Automation\Workspace_Selenium_Final\SDFQA\src\test\resource\TestSuite\TestSenthil.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Page Object test example&quot;&gt;
+  &lt;test name=&quot;sample test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.st.test.SearchPageTest&quot;/&gt;
+      &lt;class name=&quot;com.st.test.RegisterPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- sample test --&gt;
+&lt;/suite&gt; &lt;!-- Page Object test example --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Page_Object_test_example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Page Object test example</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">sample test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Page_Object_test_example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Page Object test example</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Page_Object_test_example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Page Object test example</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Page_Object_test_example');
+function tableData_Page_Object_test_example() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyRefineByEducationPopUp')
+data.setCell(0, 2, 'com.st.test.SearchPageTest')
+data.setCell(0, 3, 38868);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyRefineByIndustryPopUp')
+data.setCell(1, 2, 'com.st.test.SearchPageTest')
+data.setCell(1, 3, 34969);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyRefineByIndustryType')
+data.setCell(2, 2, 'com.st.test.SearchPageTest')
+data.setCell(2, 3, 31282);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyRefineByLocationPopUp')
+data.setCell(3, 2, 'com.st.test.SearchPageTest')
+data.setCell(3, 3, 29910);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCreateLoginDetails')
+data.setCell(4, 2, 'com.st.test.RegisterPageTest')
+data.setCell(4, 3, 28339);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyYourCurrentEmploymentDetails')
+data.setCell(5, 2, 'com.st.test.RegisterPageTest')
+data.setCell(5, 3, 27196);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifySearchByExperienceField')
+data.setCell(6, 2, 'com.st.test.SearchPageTest')
+data.setCell(6, 3, 25048);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyRefineByEducation')
+data.setCell(7, 2, 'com.st.test.SearchPageTest')
+data.setCell(7, 3, 24393);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySearchByLocationField')
+data.setCell(8, 2, 'com.st.test.SearchPageTest')
+data.setCell(8, 3, 18493);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyCreateYourJobAlert')
+data.setCell(9, 2, 'com.st.test.RegisterPageTest')
+data.setCell(9, 3, 18128);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyEducationDetails')
+data.setCell(10, 2, 'com.st.test.RegisterPageTest')
+data.setCell(10, 3, 16186);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifySearchBySkill')
+data.setCell(11, 2, 'com.st.test.SearchPageTest')
+data.setCell(11, 3, 14988);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyRegistrationPage')
+data.setCell(12, 2, 'com.st.test.RegisterPageTest')
+data.setCell(12, 3, 14203);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifySearchByLocationSection')
+data.setCell(13, 2, 'com.st.test.SearchPageTest')
+data.setCell(13, 3, 13617);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyRefineByFreshness')
+data.setCell(14, 2, 'com.st.test.SearchPageTest')
+data.setCell(14, 3, 11814);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifySearchDetailedViewResults')
+data.setCell(15, 2, 'com.st.test.SearchPageTest')
+data.setCell(15, 3, 10655);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyYourContactInformation')
+data.setCell(16, 2, 'com.st.test.RegisterPageTest')
+data.setCell(16, 3, 9275);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifySearchListingViewResults')
+data.setCell(17, 2, 'com.st.test.SearchPageTest')
+data.setCell(17, 3, 8978);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyCompleteMyProfile')
+data.setCell(18, 2, 'com.st.test.RegisterPageTest')
+data.setCell(18, 3, 7902);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyCompleteMyProfilePage')
+data.setCell(19, 2, 'com.st.test.RegisterPageTest')
+data.setCell(19, 3, 7164);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifySearchResultsPage')
+data.setCell(20, 2, 'com.st.test.SearchPageTest')
+data.setCell(20, 3, 3817);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifySearchResultsSection')
+data.setCell(21, 2, 'com.st.test.SearchPageTest')
+data.setCell(21, 3, 993);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'popUpClose')
+data.setCell(22, 2, 'com.st.test.SearchPageTest')
+data.setCell(22, 3, 797);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'popUpClose')
+data.setCell(23, 2, 'com.st.test.RegisterPageTest')
+data.setCell(23, 3, 750);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifySearchSection')
+data.setCell(24, 2, 'com.st.test.SearchPageTest')
+data.setCell(24, 3, 657);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyRefineResultsSection')
+data.setCell(25, 2, 'com.st.test.SearchPageTest')
+data.setCell(25, 3, 599);
+window.suiteTableData['Page_Object_test_example']= { tableData: data, tableDiv: 'times-div-Page_Object_test_example'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Page_Object_test_example">
+              </div> <!-- times-div-Page_Object_test_example -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Page_Object_test_example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Page Object test example</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Page_Object_test_example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Page_Object_test_example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.st.test.SearchPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">popUpClose</span>
+                <span class="method-start">33829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchSection</span>
+                <span class="method-start">34629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByLocationField</span>
+                <span class="method-start">35286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByExperienceField</span>
+                <span class="method-start">53779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchBySkill</span>
+                <span class="method-start">78828 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchResultsPage</span>
+                <span class="method-start">93817 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRefineResultsSection</span>
+                <span class="method-start">97634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchListingViewResults</span>
+                <span class="method-start">98234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchDetailedViewResults</span>
+                <span class="method-start">107212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchResultsSection</span>
+                <span class="method-start">117868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRefineByFreshness</span>
+                <span class="method-start">118861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByLocationSection</span>
+                <span class="method-start">130676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRefineByLocationPopUp</span>
+                <span class="method-start">144293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRefineByIndustryType</span>
+                <span class="method-start">174203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRefineByIndustryPopUp</span>
+                <span class="method-start">205485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRefineByEducation</span>
+                <span class="method-start">240455 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRefineByEducationPopUp</span>
+                <span class="method-start">264848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">303717 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.st.test.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">306561 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">popUpClose</span>
+                <span class="method-start">324553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPage</span>
+                <span class="method-start">325304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateLoginDetails</span>
+                <span class="method-start">339508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyYourContactInformation</span>
+                <span class="method-start">367847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyYourCurrentEmploymentDetails</span>
+                <span class="method-start">377123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCompleteMyProfilePage</span>
+                <span class="method-start">404320 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyEducationDetails</span>
+                <span class="method-start">411484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCompleteMyProfile</span>
+                <span class="method-start">427670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateYourJobAlert</span>
+                <span class="method-start">435572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">453701 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
